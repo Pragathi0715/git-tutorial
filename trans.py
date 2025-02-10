@@ -1,7 +1,7 @@
 kilometres = float(input("Enter the distance in kilometres: "))
 price = int(input("Enter the price: "))
 
-if price > 1000 and kilometres > 700:
+if price >= 1000 and kilometres > 700:
     mode = "Car and Bike"
 elif  price < 500 and kilometres < 699:
     mode = "Bus and train"
